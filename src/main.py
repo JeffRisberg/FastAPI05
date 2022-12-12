@@ -13,7 +13,6 @@ db_password = "123456"
 
 connect_str = "mysql+mysqlconnector://" + db_user + ":" + db_password + "@" + db_host + ":" + db_port + "/" + db_name
 print(connect_str)
-# app.config['SQLALCHEMY_DATABASE_URI'] = connect_str
 
 engine = create_engine(connect_str)
 conn = engine.connect()
