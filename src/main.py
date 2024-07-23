@@ -7,7 +7,7 @@ app = FastAPI()
 
 db_host = "localhost"
 db_port = '3306'
-db_name = 'fastapi04'
+db_name = 'fastapi05'
 db_user = "developer"
 db_password = "123456"
 
